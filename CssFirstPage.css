@@ -24,6 +24,10 @@ header > .inteface{
     align-items: center;
     justify-content: space-between;
 }
+
+.flex{
+    display: flex;
+}
  header a{
      color: darkgray;
      text-decoration: none;
@@ -50,5 +54,74 @@ header .btn-contato button {
     background-color: #bd9882;
     cursor: pointer;
 }
+/* topo do Site */
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site.flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: white;
+    font-size: 38px ;
+}
+
+.topo-do-site h1 span {
+    color: #bd9882;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: white;
+    margin: 50px 0px ;
+    margin-right: 150px
+}
+
+.box-imagens{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    gap: 170px;
+    align-items: center;
+}
+
+.box-imagens img{
+    cursor: pointer;
+    transition:  .2s;
+}
+.box-imagens img:hover {
+    transform: scale(1.1);
+}
+
+.box-imagens {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hab {
+    grid-column: span 2;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.hab span {
+    color: #bd9882;
+}
+
+
+
+
 
 
